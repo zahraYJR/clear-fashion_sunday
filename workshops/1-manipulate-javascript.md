@@ -1,16 +1,25 @@
-# 👖 Manipulate Products
+# 👖 Step 1 - Manipulate Products
 
 > How to manipulate data with JavaScript in the browser
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [🎯 Objective](#-objective)
+- [🏗 Prerequisites](#%F0%9F%8F%97-prerequisites)
+- [👩‍💻 Just tell me what to do](#%E2%80%8D-just-tell-me-what-to-do)
+  - [Don't forget. 5 Focus.](#dont-forget-5-focus)
+- [🛣️ Related Theme and courses](#-related-theme-and-courses)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## 🎯 Objective
 
 ```
 Getting starting with the programming Language JavaScript to manipulate array, objects, functions etc...
 ```
-
-
-## 🛣️ Related Theme and course
-
 
 ## 🏗 Prerequisites
 
@@ -42,10 +51,15 @@ If not, you should create a [GitHub account](https://github.com/join) then [add 
 
 5. **Check the ouput in your browser console** (Use `Ctrl + Shift + J` or `Cmd + Opt + J` to focus to your console devtools)
 
+![console](./img/1-console.png)
 
 ## 👩‍💻 Just tell me what to do
 
 1. **Solve each `TODO`** inside [./client/index.js](./client/index.js) file with JavaScript
+
+![todo](./img/1-todo.png)
+
+
 2. Once a TODO is solved, **commit your modification**:
 
 ```sh
@@ -67,7 +81,7 @@ If not, you should create a [GitHub account](https://github.com/join) then [add 
 10. Check that your codebase works by checking the console output
 11. If you need some helps on git commands, read [git - the simple guide](http://rogerdudler.github.io/git-guide/)
 
-### Don't forget:
+### Don't forget. 5 Focus.
 
 * DRY - Don't repeat yourself
 * DOT - Do One Thing
@@ -78,3 +92,8 @@ If not, you should create a [GitHub account](https://github.com/join) then [add 
 **Focus only on coding, forgot the browser display (next workshop!).**
 
 **Use console.log or [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) to display results (for the moment)**
+
+
+## 🛣️ Related Theme and courses
+
+* 🏁 [Theme 1 - About Javascript](https://github.com/92bondstreet/javascript-empire/blob/master/themes/1.md#about-javascript)

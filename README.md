@@ -11,7 +11,8 @@
 - [🎯 Objective](#-objective)
 - [🛣 How to solve it?](#%F0%9F%9B%A3-how-to-solve-it)
 - [👩🏽‍💻 Step by step with Workshops](#%E2%80%8D-step-by-step-with-workshops)
-- [Licence](#licence)
+- [🌱 Source and Inspiration](#-source-and-inspiration)
+- [📝 Licence](#-licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -47,7 +48,7 @@ I have to browse each e-shop brand to look for a product.
 
 ## 🎯 Objective
 
-**Build a web application to list my favorite top responsible brands Products**
+**Build a web application to list my favorite top responsible brands Products.**
 
 ## 🛣 How to solve it?
 
@@ -71,21 +72,11 @@ With [javascript-empire](https://github.com/92bondstreet/javascript-empire/tree/
 | 1 | [Manipulate data with JavaScript in the browser](./workshops/1-manipulate-javascript.md) | 18th January 2021
 | 2 | Interact data with JavaScript, HTML and CSS in the browser again | 25th and 26th January 2021
 | 3 | Scrape data with Node.js | 1st and 8th February 2021
-| 4 | Render data with React | 2 weeks off
+| 4 | Render data with React | 2 weeks off between 8th Feb. and 1st Mar.
 | 5 | Save data in a Database with MongoDB | 1st March 2021
 | 6 | Build an api with Express to request data | 8th March 2021
 | 7 | Test your code with Jest | 15th March 2021
 | 8 | Deploy in production with Vercel | 22th March 2021
-
-
-1. [Manipulate data with JavaScript in the browser](./workshops/1-manipulate-javascript.md) 18th January 2021
-1. Interact data with JavaScript, HTML and CSS in the browser again 25th 26th January 2021
-1. Scrape data with Node.js 1st 8th February 2021
-1. Render data with React (2 weeks off)
-1. Save data in a Database with MongoDB  1st March 2021
-1. Build an api with Express to request data 8th March 2021
-1. Test your code with Jest 15th March 2021
-1. Deploy in production with Vercel 22th March 2021
 
 ## 🌱 Source and Inspiration
 

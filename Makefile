@@ -2,6 +2,7 @@ SHELL := /bin/bash
 
 readme: ## generate the README file doctoc
 	doctoc README.md --github
+	doctoc ./workshops/1-manipulate-javascript.md --github
 
 help: ## This help dialog.
 	@IFS=$$'\n' ; \
