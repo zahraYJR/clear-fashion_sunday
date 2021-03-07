@@ -73,7 +73,7 @@ With [javascript-empire](https://github.com/92bondstreet/javascript-empire/tree/
 | 2 | [Interact data with JavaScript, HTML and CSS in the browser again](./workshops/2-interact-js-css.md) | 25th and 26th January 2021
 | 3 | [Scrape data with Node.js](./workshops/3-scrape-node.md) | 1st and 8th February 2021
 | 4 | [Save data in a Database with MongoDB](./workshops/4-store-mongodb.md) | 1st March 2021
-| 5 | Build an api with Express to request data | 8th March 2021
+| 5 | [Build an api with Express to request data](./workshops/5-api-express.md) | 8th March 2021
 | 6 | Test your code with Jest | 15th March 2021
 | 7 | Deploy in production with Vercel | 22th March 2021
 | 8 | Render data with React | April extra mile.
