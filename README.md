@@ -75,7 +75,7 @@ With [javascript-empire](https://github.com/92bondstreet/javascript-empire/tree/
 | 4 | [Save data in a Database with MongoDB](./workshops/4-store-mongodb.md) | 1st March 2021
 | 5 | [Build an api with Express to request data](./workshops/5-api-express.md) | 8th March 2021
 | 6 | Test your code with Jest | 15th March 2021
-| 7 | Deploy in production with Vercel | 22th March 2021
+| 7 | [Deploy in production with Vercel](./workshops/7-deploy.md) | 22th March 2021
 | 8 | Render data with React | April extra mile.
 
 

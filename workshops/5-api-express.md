@@ -8,9 +8,10 @@
 
 - [🎯 Objective](#-objective)
 - [🏗 Prerequisites](#%F0%9F%8F%97-prerequisites)
-- [List of endpoints to implement](#list-of-endpoints-to-implement)
+- [⤵️ List of endpoints to implement](#-list-of-endpoints-to-implement)
     - [`GET /products/:id`](#get-productsid)
     - [`GET /products/search`](#get-productssearch)
+- [👩‍💻 Just tell me what to do](#%E2%80%8D-just-tell-me-what-to-do)
 - [📦 Suggested node modules](#-suggested-node-modules)
 - [🛣️ Related Theme and courses](#-related-theme-and-courses)
 
