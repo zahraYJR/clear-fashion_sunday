@@ -34,7 +34,7 @@ How to choose environmentally & human-friendly clothes
 
 ---
 
-![mud](./mud.png) <!-- .element height="50%" width="50%" -->
+![mud](./green-lion.png) <!-- .element height="50%" width="50%" -->
 
 ---
 

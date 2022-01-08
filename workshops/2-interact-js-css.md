@@ -59,13 +59,13 @@ nothing to commit, working tree clean
 ❯ git pull upstream master
 ```
 
-4. **Open the entry point [../client/index.html](../client/index.html)** in your browser (that loads the [../client/portfolio.js](../client/portfolio.js) file)
+4. **Open the entry point [../client/v2/index.html](../client/v2/index.html)** in your browser (that loads the [../client/v2/portfolio.js](../client/v2/portfolio.js) file)
 
 ```sh
 # macos cli
-❯ open client/index.html
+❯ open client/v2/index.html
 # linux cli
-❯ xdg-open client/index.html
+❯ xdg-open client/v2/index.html
 
 # or by double-clicking in your browser files
 ```
@@ -180,7 +180,7 @@ So that I can find valuable and useful content
 
 ## 👩‍💻 Just tell me what to do
 
-1. **Solve each `User Stories`** inside [../client/portfolio.js](../client/portfolio.js) file with JavaScript
+1. **Solve each `User Stories`** inside [../client/v2/portfolio.js](../client/v2/portfolio.js) file with JavaScript
 
 <img src="./img/2-portfolio.png" width="75%"/>
 
@@ -192,7 +192,7 @@ So that I can find valuable and useful content
 ❯ git add -A && git commit -m "feat(display): show 12, 24 or 48 products"
 ```
 
-([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21)
+([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21))
 
 3. **Commit early, commit often**
 4. Don't forget **to push before the end of the workshop**
@@ -210,7 +210,7 @@ So that I can find valuable and useful content
 
 * DOT - Do One Thing
 * LIM - Less Is More
-* If you change the [../client/index.html](../client/index.html) selectors, you should probably update [../client/portfolio.js](../client/portfolio.js) file
+* If you change the [../client/v2/index.html](../client/v2/index.html) selectors, you should probably update [../client/v2/portfolio.js](../client/v2/portfolio.js) file
 * English only: codebase, variables, comments...
 
 **Focus on coding and web design**

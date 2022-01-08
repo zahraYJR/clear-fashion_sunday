@@ -72,7 +72,7 @@ Let's try to scrape products from the e-shop brand [Dedicated](https://www.dedic
 1. How the e-shop https://www.dedicatedbrand.com/en/ works?
 1. How can I access to the different products pages?
 1. What are the given properties for a `Product`: name, price, category, link...?
-1. Check how that you can get list of Products: web page itself, api etc.... (Inspect Network Activity - with [Chrome DevTools for instance](https://developers.google.com/web/tools/chrome-devtools/network) - on any browser)
+1. Check how that you can get list of Products: web page itself, api etc.... (Inspect Network Activity - with [Chrome DevTools for instance](https://developer.chrome.com/docs/devtools/network/) - on any browser)
 1. Define the JSON object representation for a Product
 1. ...
 1. ...
@@ -85,7 +85,7 @@ Let's try to scrape products from the e-shop brand [Dedicated](https://www.dedic
 
 Create a module called `dedicatedbrand` that returns the list of Products for a given url page of [Dedicated](https://www.dedicatedbrand.com/en/).
 
-An Example of page to scrape: https://www.dedicatedbrand.com/en/men/news
+Example of page to scrape: https://www.dedicatedbrand.com/en/men/news
 
 
 ```js
@@ -100,7 +100,7 @@ products.forEach(product => {
 
 ## 📦 Suggested node modules
 
-* [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+* [node-fetch](https://github.com/node-fetch/node-fetch) - A light-weight module that brings Fetch API to Node.js.
 * [cheerio](https://github.com/cheeriojs/cheerio) - Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
 * [nodemon](https://github.com/remy/nodemon) - Monitor for any changes in your node.js application and automatically restart the server - perfect for development
 
@@ -108,19 +108,19 @@ products.forEach(product => {
 
 [server/sources/dedicatedbrand.js](../server/sources/dedicatedbrand.js) contains a function to scrape a given [Dedicated](https://www.dedicatedbrand.com/en/) products page.
 
-To start the example, call with node cli or use the Makefile target:
+To start the example, call with `node` cli or use the `Makefile` target:
 
 ```sh
 ❯ cd /path/to/workspace/clear-fashion/server
 ❯ node sandbox.js
 ❯ node sandbox.js "https://www.dedicatedbrand.com/en/men/t-shirts"
-❯ ## make sandbox-sever
+❯ ## make sandbox
 ❯ ## ./node_modules/.bin/nodemon sandbox.js
 ```
 
 
 ```js
-const axios = require('axios');
+const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
 /**
@@ -155,16 +155,22 @@ const parse = data => {
  * @return {Array|null}
  */
 module.exports.scrape = async url => {
-  const response = await axios(url);
-  const {data, status} = response;
+  try {
+    const response = await fetch(url);
 
-  if (status >= 200 && status < 300) {
-    return parse(data);
+    if (response.ok) {
+      const body = await response.text();
+
+      return parse(body);
+    }
+
+    console.error(response);
+
+    return null;
+  } catch (error) {
+    console.error(error);
+    return null;
   }
-
-  console.error(status);
-
-  return null;
 };
 ```
 
@@ -182,7 +188,7 @@ module.exports.scrape = async url => {
 ❯ git add -A && git commit -m "feat(shop): scrape new products"
 ```
 
-([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21)
+([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21))
 
 3. **Commit early, commit often**
 4. Don't forget **to push before the end of the workshop**

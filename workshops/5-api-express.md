@@ -144,7 +144,7 @@ The results array should be sorted by price in ascending way.
 ❯ git add -A && git commit -m "feat(get-product): get a specific product"
 ```
 
-([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21)
+([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21))
 
 5. **Commit early, commit often**
 6. Don't forget **to push before the end of the workshop**

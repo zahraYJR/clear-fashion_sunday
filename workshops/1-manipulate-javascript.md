@@ -38,13 +38,13 @@ If not, you should create a [GitHub account](https://github.com/join) then [add 
 ❯ git clone git@github.com:YOUR_USERNAME/clear-fashion.git
 ```
 
-4. **Open the entry point [../client/index.html](../client/index.html)** in your browser (that loads the `index.js` file)
+4. **Open the entry point [../client/v1/index.html](../client/v1/index.html)** in your browser (that loads the `index.js` file)
 
 ```sh
 # macos cli
-❯ open client/index.html
+❯ open client/v1/index.html
 # linux cli
-❯ xdg-open client/index.html
+❯ xdg-open client/v1/index.html
 
 # or by double-clicking in your browser files
 ```
@@ -55,7 +55,7 @@ If not, you should create a [GitHub account](https://github.com/join) then [add 
 
 ## 👩‍💻 Just tell me what to do
 
-1. **Solve each `TODO`** inside [../client/index.js](../client/index.js) file with JavaScript
+1. **Solve each `TODO`** inside [../client/v1/index.js](../client/v1/index.js) file with JavaScript
 
 ![todo](./img/1-todo.png)
 
@@ -67,7 +67,7 @@ If not, you should create a [GitHub account](https://github.com/join) then [add 
 ❯ git add -A && git commit -m "feat(lowest): compute number of products"
 ```
 
-([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21)
+([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21))
 
 3. **Commit early, commit often**
 4. Don't forget **to push before the end of the workshop**

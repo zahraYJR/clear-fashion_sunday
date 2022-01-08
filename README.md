@@ -27,7 +27,7 @@ With Clear Fashion, you will get an analysis **with transparency and independenc
 
 <img src="./docs/decathlon.png" width="45%"/> <img src="./docs/ask.png" width="45%"/>
 
-<img src="./docs/top.png" width="45%"/> <img src="./docs/mud.png" width="45%"/>
+<img src="./docs/top.png" width="45%"/> <img src="./docs/green-lion.png" width="45%"/>
 
 ## 🤔 Problems
 
@@ -65,18 +65,18 @@ I have to browse each e-shop brand to look for a product.
 ![Maps](./docs/map.jpg)
 
 
-With [javascript-empire](https://github.com/92bondstreet/javascript-empire/tree/master/themes) themes, we'll follow next workshops to solve our problem:
+With [javascript-empire](https://github.com/92bondstreet/javascript-empire#%EF%B8%8F-the-3-themes) themes, we'll follow next workshops to solve our problem:
 
 | Step | Workshops | Planned Date
 | --- | --- | ---
-| 1 | [Manipulate data with JavaScript in the browser](./workshops/1-manipulate-javascript.md) | 18th January 2021
-| 2 | [Interact data with JavaScript, HTML and CSS in the browser again](./workshops/2-interact-js-css.md) | 25th and 26th January 2021
-| 3 | [Scrape data with Node.js](./workshops/3-scrape-node.md) | 1st and 8th February 2021
-| 4 | [Save data in a Database with MongoDB](./workshops/4-store-mongodb.md) | 1st March 2021
-| 5 | [Build an api with Express to request data](./workshops/5-api-express.md) | 8th March 2021
-| 6 | Test your code with Jest | 15th March 2021
-| 7 | [Deploy in production with Vercel](./workshops/7-deploy.md) | 22th March 2021
-| 8 | Render data with React | April extra mile.
+| 1 | [Manipulate data with JavaScript in the browser](./workshops/1-manipulate-javascript.md) | 17 January 2022
+| 2 | [Interact data with JavaScript, HTML and CSS in the browser again](./workshops/2-interact-js-css.md) | 24 January 2022
+| 3 | [Scrape data with Node.js](./workshops/3-scrape-node.md) | 31 January and 7 February 2022
+| 4 | [Save data in a Database with MongoDB](./workshops/4-store-mongodb.md) | 14 February 2022
+| 5 | [Build an api with Express to request data](./workshops/5-api-express.md) | 7 March 2022
+| 6 | Test your code with Jest | 14 March 2022
+| 7 | [Deploy in production with Vercel](./workshops/7-deploy.md) | 21 and 22 March 2022
+| 8 | Render data with React | April 2022 extra mile
 
 
 ## 🌱 Source and Inspiration

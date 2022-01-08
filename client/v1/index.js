@@ -12,12 +12,10 @@ const MY_FAVORITE_BRANDS = [{
 }, {
   'name': 'ADRESSE',
   'url': 'https://adresse.paris/'
-}]
+}];
 
 console.table(MY_FAVORITE_BRANDS);
 console.log(MY_FAVORITE_BRANDS[0]);
-
-
 
 
 
@@ -232,6 +230,7 @@ let blueJacket = {
 // we make a copy of blueJacket to jacket
 // and set a new property `favorite` to true
 let jacket = blueJacket;
+
 jacket.favorite = true;
 
 // 1. Log `blueJacket` and `jacket` variables

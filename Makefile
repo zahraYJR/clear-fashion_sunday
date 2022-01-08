@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 deploy-client: ## deploy the client directory
-	vercel client --prod
+	vercel client/v2 --prod
 
 deploy-server: ## deploy the API
 	vercel server --prod

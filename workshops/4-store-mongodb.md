@@ -48,7 +48,7 @@ nothing to commit, working tree clean
 
 1. **Create a free account on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)**, Database as a Service (DBaaS) Provider.
 
-2. **Create a [MongoDB Cluster](https://docs.mongodb.com/drivers/node/quick-start/#set-up-a-free-tier-cluster-in-atlas)**
+2. **Create a [MongoDB Cluster](https://docs.atlas.mongodb.com/tutorial/create-new-cluster/)**
 
 3. **Connect** your node.js server script
 
@@ -106,7 +106,7 @@ These 3 methods should
 ❯ git add -A && git commit -m "feat(new-products): insert all products"
 ```
 
-([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21)
+([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21))
 
 7. **Commit early, commit often**
 8. Don't forget **to push before the end of the workshop**

@@ -56,7 +56,7 @@ nothing to commit, working tree clean
 
 For instance the [server/api.js](../server/api.js) is deployed to [https://server-ashy.vercel.app](https://server-ashy.vercel.app)
 
-3. **Update your [client](../client) codebase to fetch products from your API**
+3. **Update your [client](../client/v2) codebase to fetch products from your API**
 
 ```js
 const fetchProducts = async (page = 1, size = 12) => {
@@ -75,9 +75,9 @@ const fetchProducts = async (page = 1, size = 12) => {
 
 **You probably need to update your codebase.**
 
-4. **Deploy your [client](../client) application** with Vercel
+4. **Deploy your [client](../client/v2) application** with Vercel
 
-For instance the [client](../client) is deployed to [https://client-blush-iota.vercel.app/](https://client-blush-iota.vercel.app/)
+For instance the [client](../client/v2) is deployed to [https://client-blush-iota.vercel.app/](https://client-blush-iota.vercel.app/)
 
 5.  **Commit your modification**
 
@@ -86,7 +86,7 @@ For instance the [client](../client) is deployed to [https://client-blush-iota.v
 ❯ git add -A && git commit -m "feat(get-product): get a specific product"
 ```
 
-([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21)
+([why following a commit message convention?](https://dev.to/chrissiemhrk/git-commit-message-5e21))
 
 6. Complete the spreadsheet file with your API and client application url
 
@@ -118,7 +118,7 @@ If you need some helps on git commands, read [git - the simple guide](http://rog
 More details with
 
 * [Using Express.js with Vercel](https://vercel.com/guides/using-express-with-vercel)
-* [different ways of configuring your Vercel projects and Vercel CLI](https://vercel.com/docs/configuration)
+* [Different ways of configuring your Vercel projects and Vercel CLI](https://vercel.com/docs/configuration)
 
 #### Deploy with the cli
 
